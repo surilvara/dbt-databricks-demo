@@ -1,0 +1,1 @@
+select * from {{ source('databricks', 'del_feed_100') }}
